@@ -1,0 +1,7 @@
+<ng-template [ngIf]="message.author">
+  <app-client-message [message]="message"></app-client-message>
+</ng-template>
+
+<ng-template [ngIf]="!message.author">
+  <app-companion-message [message]="message"></app-companion-message>
+</ng-template>

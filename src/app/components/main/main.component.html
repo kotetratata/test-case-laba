@@ -1,0 +1,6 @@
+<div>
+  <app-header></app-header>
+  <app-chat-list (onSelected)="changeChat($event)"></app-chat-list>
+</div>
+
+<app-chat-window [chatObj]="selectedChat"></app-chat-window>

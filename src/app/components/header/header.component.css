@@ -1,0 +1,11 @@
+:host{
+  display: flex;
+  justify-content: space-between;
+  border:1px solid #E5E5E5;
+  color:#437C95;
+  font-weight: bold;
+}
+.search-block{
+  display: flex;
+  justify-content: space-between;
+}

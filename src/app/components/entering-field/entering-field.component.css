@@ -1,0 +1,13 @@
+:host{
+  display:flex;
+}
+textarea{
+  width: 95%;
+  height: 100px;
+  padding: 0;
+  border: 0;
+}
+button{
+  width: 150px;
+  height:50px;
+}

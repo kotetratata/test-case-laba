@@ -1,0 +1,3 @@
+<ng-container *ngFor="let node of chats">
+  <app-chat-list-node [chatObj] = node (click)="select(node)"></app-chat-list-node>
+</ng-container>

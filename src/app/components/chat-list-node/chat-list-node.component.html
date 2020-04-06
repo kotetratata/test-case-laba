@@ -1,0 +1,14 @@
+<ng-template [ngIf]="chatObj.icon">
+  <div class="icon">icon</div>
+</ng-template>
+<div class="node-block">
+  <p class="name">{{chatObj.name}}</p>
+
+  <p class="text">
+    {{chatObj.messages[chatObj.messages.length-1].text}}
+  </p>
+
+  <p class="date">{{chatObj.lastDate}}</p>
+
+  <ng-template [ngIf]="chatObj.lastViewed">viewed</ng-template>
+</div>

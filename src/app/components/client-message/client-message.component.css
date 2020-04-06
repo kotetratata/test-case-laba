@@ -1,0 +1,14 @@
+:host{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+div{
+  max-width: 60%;
+}
+.message{
+  background-color: #31718C;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+}

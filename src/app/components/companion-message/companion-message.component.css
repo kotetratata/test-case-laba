@@ -1,0 +1,15 @@
+:host{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 50px;
+}
+div{
+  max-width: 60%;
+}
+.message{
+  background-color: #EBEBEB;
+  border-radius: 5px;
+  color: #6E6E6E;
+  padding: 10px;
+  margin-bottom:-10px;
+}

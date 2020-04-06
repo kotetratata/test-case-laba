@@ -1,0 +1,14 @@
+:host{
+  display: block;
+  overflow-y: scroll;
+  height: 450px;
+}
+:host::-webkit-scrollbar{
+  width: 10px;
+  background-color: white;
+}
+:host::-webkit-scrollbar-thumb{
+  background-color: #C2C2C2;
+  border-radius: 5px;
+  border:2px solid white;
+}
